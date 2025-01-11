@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Realizamos cartelería de todo tipo. Gigantografías. Corpóreos. Backlight. Neon LED. Corte y grabado Laser. Productos a medida.">
+    <link rel="icon" href="images/favicon.jpg" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db1280d519.js" crossorigin="anonymous"></script>
+    <title>Letreros Zanneta</title>
+</head>
+<body>
+
+    <header>
+      <nav class="main-nav">
+        <div class="logo">
+          <a href="#" class="logo-1"><img src="images/logo.png" alt=""></a>
+          <a href="#" class="logo-2"><img src="images/logo2.png" alt=""></a>
+          <p>desde 1945</p>
+        </div>
+        <div class="nav">
+          <a href="#about">NOSOTROS</a>
+          <a href="#servicios">SERVICIOS</a>
+          <a href="#clientes">CLIENTES</a>
+          <a href="#contacto">CONTACTO</a>
+        </div>
+      </nav>      
+    </header>
+
+    <div class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <nav class="nav-responsive">
+      <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#about">NOSOTROS</a></li>
+          <li><a href="#servicios">SERVICIOS</a></li>
+          <li><a href="#clientes">CLIENTES</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+      </ul>     
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="images/carousel/corporeo1.jpg" alt="Cartel corporeo">
+        <img src="images/carousel/shelter.jpg" alt="Cartel corporo, acrilico, LED">
+        <img src="images/carousel/don-mario.jpg" alt="Cartel corporeo, polyfan">
+        <img src="images/carousel/acrilico-back.jpg" alt="Backligth, acrilico">
+        <img src="images/carousel/Neon.jpg" alt="Neon, LED">
+        <img src="images/carousel/cadea.jpg" alt="Cartel chapa, Iluminación LED">
+      </div>
+      <button class="carousel-btn btn-prev">&#10094;</button>
+      <button class="carousel-btn btn-next">&#10095;</button>
+    </div>
+
+    <div id="about"></div>
+
+    <P class="about">
+      <i class="fa-solid fa-quote-left" style="font-size: 48px;"></i>&nbsp;&nbsp; <b style="font-size: 30px;">Somos</b> una empresa de <b style="font-size: 45px;">Cartelería</b>, ubicada en el corazón de <b style="font-size: 30px;">Mendoza</b>. <br> Así mismo, producimos trabajos para todo el <b style="font-size: 35px;">país</b>. <br> Nuestros <b style="font-size: 40px;">servicios</b> son tan amplios como <b style="font-size: 40px;">versátiles</b>.<br><b style="font-size: 30px;">Realizamos</b> todo tipo de <b style="font-size: 35px;">instalaciones</b> comerciales. &nbsp;&nbsp;<i class="fa-solid fa-quote-right" style="font-size: 48px;"></i>
+    </P>
+
+    <br> <br> <br> 
+
+    <!-- Servicios ------------------------------------ -->
+
+    <div class="servicios" id="servicios"></div>
+
+    <h1>
+      CARTELERÍA
+    </h1>
+    <div class="linea"></div>
+    <br>
+
+    <div class="gallery">
+      <div class="gallery-item" onclick="openLightbox('images/protex.jpg')">
+        <img src="images/protex.jpg" alt="Imagen 1">
+        <div class="info">
+          <h3>Corpóreos</h3>
+          <p>Letras - Logos. Chapa/ Acrílico/ MDF/ Polyfan. Iluminación LED.</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/neon-2.jpg')">
+        <img src="images/neon-2.jpg" alt="Imagen 2">
+        <div class="info">
+          <h3>Neón</h3>
+          <p>Neón LED - Acrílico/ MDF</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/Backlight.jpg')">
+        <img src="images/Backlight.jpg" alt="Imagen 3">
+        <div class="info">
+          <h3>Backlight</h3>
+          <p>Luminosos - Lona/ Caño/ Retroiluminación LED</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/Ploteos.jpg')">
+        <img src="images/Ploteos.jpg" alt="Imagen 4">
+        <div class="info">
+          <h3>Ploteos</h3>
+          <p>Vinilos/ Impresón/ Corte/ Esmerilados</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/front.jpg')">
+        <img src="images/front.jpg" alt="Imagen 5">
+        <div class="info">
+          <h3>Front</h3>
+          <p>Lona/ Impresión/ Caño estructural</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/senaletica.jpg')">
+        <img src="images/senaletica.jpg" alt="Imagen 6">
+        <div class="info">
+          <h3>Señalética</h3>
+          <p>Acrílico/ Acero inoxidable/ Vinilo/ Chapa</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="lightbox" onclick="closeLightbox()" id="lightbox">
+      <button class="close-btn" onclick="closeLightbox()">&times;</button>
+      <img src="" alt="Imagen ampliada" id="lightbox-img">
+    </div>
+
+    <br> <br> <br> <br> <br>
+
+    <h2>
+      PRODUCTOS A MEDIDA
+    </h2>
+    <div class="linea"></div>
+    <br>
+
+    <div class="gallery">
+      <div class="gallery-item" onclick="openLightbox('images/andes.jpg')">
+        <img src="images/andes.jpg" alt="Imagen 1">
+        <div class="info">
+          <h3>Stands</h3>
+          <p>Estructuras completas - Aplicaciones Gráficas</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/Atril.jpg')">
+        <img src="images/Atril.jpg" alt="Imagen 2">
+        <div class="info">
+          <h3>Mobiliario para Eventos</h3>
+          <p>Atril - Acrílico/ LED/ Chapa/ Caño</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/pop.jpg')">
+        <img src="images/pop.jpg" alt="Imagen 3">
+        <div class="info">
+          <h3>POP</h3>
+          <p>POP Publicitarios - Acrílico/ MDF/ LED</p>
+        </div>
+      </div>
+    </div>
+
+    <br> <br> <br> <br> <br>
+
+    <h2>
+      OTROS SERVICIOS
+    </h2>
+    <div class="linea"></div>
+    <br>
+
+    <div class="gallery">
+      <div class="gallery-item" onclick="openLightbox('images/laser.jpg')">
+        <img src="images/laser.jpg" alt="Imagen 1">
+        <div class="info">
+          <h3>Laser</h3>
+          <p>Cortes - Grabados - Acrílicos/ MDF</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/gigantografia.jpg')">
+        <img src="images/gigantografia.jpg" alt="Imagen 2">
+        <div class="info">
+          <h3>Impresiones</h3>
+          <p>Gigantografías - Lona/ Vinilo</p>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('images/vehicular.jpg')">
+        <img src="images/vehicular.jpg" alt="Imagen 3">
+        <div class="info">
+          <h3>Rotulación Vehicular</h3>
+          <p>Vinilo/ Impresión / Corte</p>
+        </div>
+      </div>
+    </div>
+
+    <br> <br> <br>
+
+    <!-- Clientes ------------------------------ -->
+
+    <div class="clientes" id="clientes"></div>
+    <div class="clientes-txt">
+      <h3 class="">Algunos de nuestros clientes</h3>
+    </div>
+    
+    <div class="linea-2"></div>
+    <div class="clientes-img">
+      <img src="images/clientes/Logo_Naranja.png" alt="">
+      <img src="images/clientes/andes.jpg" alt="">
+      <img src="images/clientes/don-mario.jpg" alt="">
+      <img src="images/clientes/logo-las-perdices.jpg" alt="">
+      <img src="images/clientes/chocolezza.jpg" alt="">
+      <img src="images/clientes/nevada2.png" alt="">
+    </div>
+
+
+    <!-- Contacto ------------------------------ -->
+
+    <br> <br> <br> 
+
+    <div class="contacto" id="contacto"></div>
+
+    <h2>
+      CONTACTO
+    </h2>
+    <div class="linea"></div>
+    <br>
+
+    <form id="contact-form" action="contacto.php" method="POST">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4"  required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="response-message"></div>
+
+    <div class="maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1408.849956149686!2d-68.83485492900162!3d-32.87624923452405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09c94494e237%3A0x179f3e35fa4c6a18!2sZANETTA%20CARTELERIA!5e0!3m2!1ses-419!2sar!4v1735334556707!5m2!1ses-419!2sar"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+
+    <!-- Footer ------------------------------ -->
+
+    <footer>
+      <ul class="social">
+        <li class="social-icon">
+          <a href="https://www.facebook.com/zanettaletreros" class="icon"><i class="fa-brands fa-square-facebook" ></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" class="icon"><i class="fa-brands fa-square-instagram"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="https://web.whatsapp.com/send?phone=5492614687999" class="icon"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </li>
+      </ul>
+      <ul class="footer-menu">
+        <li class="menu-element"><a href="#">Inicio</a></li>
+        <li class="menu-element"><a href="#about">About</a></li>
+        <li class="menu-element"><a href="#servicios">Servicios</a></li>
+        <li class="menu-element"><a href="#contacto">Contacto</a></li>
+      </ul>
+      <p class="footer-text">Maipú 160 &nbsp;-&nbsp; Mendoza Capital <br> Copyright&nbsp; -&nbsp; &#169;2025 Zanetta Letreros &nbsp;-&nbsp; Todos los derechos reservados &nbsp;-&nbsp; <a href="">Desarrollo y Diseño Lisandro Larraya Inc.</a></p>
+    </footer>
+  
+
+    <script src="codigo.js"></script>      
+    
+</body>
+</html>
